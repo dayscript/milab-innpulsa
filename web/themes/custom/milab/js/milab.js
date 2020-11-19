@@ -65,6 +65,40 @@
 		    }
 		  }
 		});
+		$(".detalle-nosotros-slider").owlCarousel({
+		  loop: true,
+		  margin: 0,
+		  dots: true,
+		  items: 1,
+		  center: true,
+		  autoplay: true,
+		  autoHeight:true,
+		  responsive:{
+		    0:{
+		      nav:false
+		    },
+		    600:{
+		      nav:false
+		    }
+		  }
+		});
+		$(".detalle-mapeo-govtech-slider").owlCarousel({
+		  loop: true,
+		  margin: 0,
+		  dots: true,
+		  items: 1,
+		  center: true,
+		  autoplay: true,
+		  autoHeight:true,
+		  responsive:{
+		    0:{
+		      nav:false
+		    },
+		    600:{
+		      nav:false
+		    }
+		  }
+		});
     }
   };
 
