@@ -19,12 +19,16 @@ libraries:
 regions:
   header: Header
   meta_header: 'Meta header'
-  main: Main
   help: Help
+  main: Main
+  completo: Completo
+  completo2: Completo2
   page_top: 'Page top'
   page_bottom: 'Page bottom'
   highlighted: Highlighted
   content: Content
+  auxiliar: Auxiliar
+  cta: Cta
   sidebar_first: 'Left sidebar'
   sidebar_second: 'Right sidebar'
   footer_first: 'Footer first column'

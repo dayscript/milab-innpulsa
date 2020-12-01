@@ -7,9 +7,56 @@
 
 // Headings
 //------------------------------------------
-// h1, h2, h3,
-// h4, h5, h6 {}
+h1, h2, h3,
+h4, h5, h6 {
+    color: $primary-color;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    margin-bottom: 2rem;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.button{
+    text-transform: uppercase;
+}
+.pt1{
+    padding-top: 1rem;
+}
+.pt2{
+    padding-top: 2rem;
+}
+.pt3{
+    padding-top: 3rem;
+}
+.pb1{
+    padding-bottom: 1rem;
+}
+.pb2{
+    padding-bottom: 2em;
+}
+.pb3{
+    padding-bottom: 3rem;
+}
+.more-link {
+    text-align: center;
+    margin: 2rem 1rem;
+    a{
+        color: $white;
+        text-transform: uppercase;
+        background: $primary-color;
+        padding: 0.85em 1.3em;
 
+    }
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: $primary-color !important;
+}
 // Anchors
 //-----------------------------------------------------------------------------
 // a {}

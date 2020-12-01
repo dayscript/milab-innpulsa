@@ -1,1 +1,44 @@
 // Non-modular or client styles for .l-footer region.
+.container-footer{
+    background: url(../images/back3.jpg);
+    background-size: cover;
+    .logos-footer{
+        margin: 2rem 0;
+        .logo1{
+            margin-bottom: 1rem;
+        }
+        .logo2{
+            margin-top: 0.5rem;
+        }
+        @media only screen and (max-width: 600px) {
+            text-align: center;
+          }
+    }
+    .contact{
+        margin-top: 2rem;
+        color: $white;
+        img.icon {
+            height: 35px;
+            margin: 1rem 0.6rem 0.3rem 0;
+            @media only screen and (max-width: 600px) {
+                height: 20px;
+              }
+        }
+        @media only screen and (max-width: 600px) {
+            text-align: center;
+          }
+    }
+}
+.cta{
+    background: $secondary-color;
+    section#block-contactamos{
+        padding: 3rem;
+        color: $white;
+        .title{
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: $white;
+        }
+    }
+}

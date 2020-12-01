@@ -1,1 +1,108 @@
 // Non-modular or client styles for .l-header region.
+header.header {
+    position: absolute;
+    z-index: 2;
+    padding: 1rem 0;
+}
+.homeslider{
+    position: relative;
+    .views-field-field-image{
+        position: relative;
+    }
+    .info {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        text-align: center;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+        color: white;
+        @media only screen and (max-width: 600px) {
+            top: 60%;
+            transform: translateY(-40%);
+          }
+    
+        h1{
+            text-transform: uppercase;
+            color: $white;
+        }
+        .subtitle{
+            font-size: 1.6rem;
+            padding: 0 20%;
+            margin-bottom: 2rem; 
+            @media only screen and (max-width: 600px) {
+                font-size: 1rem;
+            padding: 0 10%;
+              }
+        }
+        .button{
+            a{
+                color: $white;
+            }
+        }
+ }
+}
+
+
+.menu-header{
+    margin-top: 1rem;
+    ul.menu.dropdown {
+        display: inline-block;
+        li{
+            a{
+                background: transparent;
+                color: $white;
+                font-size: 1rem;
+                text-transform: uppercase;
+                font-weight: 500;
+                &:hover{
+                    color: $primary-color;
+                }
+                &.is-active{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+.entidades{
+    margin-top: 1rem;
+    @media only screen and (max-width: 600px) {
+        text-align: center;
+      }
+    img{
+        width: 46%;
+        display: inline-block;
+        @media only screen and (max-width: 600px) {
+            width: 30%;
+          }
+    }
+}
+
+
+section#block-encabezadointernas {
+    height: 96px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    @media only screen and (max-width: 600px) {
+        height: 140px;
+        img{
+            height: 200%;
+        }
+      }
+}
+section#block-formularioexpuestoretospage-1{
+    h2.block-title {
+        font-size: 2rem;
+        text-align: left;
+        text-transform: none;
+        font-weight: 500;
+        line-height: 1.1em;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    p.columns {
+        margin-bottom: 3rem;
+    }
+}

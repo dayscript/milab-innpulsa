@@ -67,9 +67,9 @@
         {% endif %}
       {% endif %}
 
-      <header class="row" role="banner" aria-label="{{ 'Site header'|t }}">
+      <header class="header" role="banner" aria-label="{{ 'Site header'|t }}">
         {% if page.header %}
-          <div class="large-12 columns">
+          <div class="columns">
             {{ page.header }}
           </div>
         {% endif %}
@@ -125,7 +125,6 @@
         </div>
       </div>
       {% endif %}
-
       {% if page.help %}
       <div class="l-help row">
         <div class="large-12 columns">
@@ -133,6 +132,22 @@
         </div>
       </div>
       {% endif %}
+      {% if page.completo %}
+      <div class="completo">
+        <div>
+          {{ page.completo }}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if page.completo2 %}
+      <div class="completo2">
+        <div>
+          {{ page.completo2 }}
+        </div>
+      </div>
+      {% endif %}
+      
 
       <div class="row">
         <main id="main" class="{{ main_grid }} columns" role="main">
@@ -158,7 +173,22 @@
           </div>
         {% endif %}
       </div>
-      {% if page.footer_first or page.footer_middle or page.footer_last %}
+      {% if page.auxiliar %}
+      <div class="auxiliar">
+        <div class="">
+          {{ page.auxiliar }}
+        </div>
+      </div>
+      {% endif %}
+      {% if page.cta %}
+      <div class="cta">
+        <div class="">
+          {{ page.cta }}
+        </div>
+      </div>
+      {% endif %}
+      <div class="container-footer">
+        {% if page.footer_first or page.footer_middle or page.footer_last %}
         <footer class="row">
           {% if page.footer_first %}
             <div id="footer-first">
@@ -177,6 +207,7 @@
           {% endif %}
         </footer>
       {% endif %}
+      </div>
       {% if block_copyright_show %}
         <div class="bottom-bar callout secondary large-12 columns">
           {% if not block_copyright_custom_text %}
