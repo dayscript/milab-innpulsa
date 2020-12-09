@@ -34,6 +34,7 @@
         "drupal/pathauto": "^1.8",
         "drupal/responsive_menu": "^4.4",
         "drupal/social_media_links": "^2.7",
+        "drupal/views_accordion": "^2.0",
         "drupal/views_infinite_scroll": "^1.7",
         "drupal/views_list_sort": "^1.1",
         "drupal/zurb_foundation": "^6.0@alpha"
