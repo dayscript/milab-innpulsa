@@ -40,7 +40,7 @@
 		  autoHeight:true,
 		  responsive:{
 		    0:{
-		      nav:false
+				items: 1,
 		    },
 		    600:{
 		      nav:true
@@ -58,7 +58,7 @@
 		  autoHeight:true,
 		  responsive:{
 		    0:{
-		      nav:false
+				items: 1,
 		    },
 		    600:{
 		      nav:true

@@ -13,6 +13,11 @@
         @media only screen and (max-width: 600px) {
             text-align: center;
           }
+          img{
+            @media only screen and (max-width: 600px) {
+                width: 70%;
+              }
+        }
     }
     .contact{
         margin-top: 2rem;
@@ -26,8 +31,15 @@
         }
         @media only screen and (max-width: 600px) {
             text-align: center;
+            font-size: 0.8rem;
+            margin-top: 1rem;
           }
     }
+}
+div#sidebar-first{
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 3rem;
+      }
 }
 .cta{
     background: $secondary-color;

@@ -1,5 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-
+.section-nosotros, .node--type-retos, .node--type-convocatorias, .section-mapeo-govtech, .section-noticias, .path-frontpage, .section-taxonomy, .node--type-article {
+    main#main {
+        width: 100%;
+    }
+}
+.node--type-retos, .node--type-convocatorias, .node--type-article, .section-taxonomy {
+    section#block-milab-content{ 
+        padding: 0 20%;
+        @media only screen and (max-width: 600px) {
+            padding: 0 1rem;
+          }
+    }
+    section#block-milab-page-title{
+        padding: 0 10%;
+        @media only screen and (max-width: 600px) {
+            padding: 0 1rem;
+          }
+    }
+    .field-name-field-tags{
+        display: inline-block;
+        .field-item {
+            display: inline-block;
+        }
+    }
+    .field-name-field-image{
+        margin-bottom: 2rem;
+    }
+    .field-name-field-fecha{
+        display: inline-block;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+        color: $black;
+        font-weight: 600;
+    }
+    .field-label {
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 400 !important;
+        color: $black !important;
+    }
+    .field-name-field-aliado, .field-name-field-tags, .field-name-field-enlace {
+        font-size: 1rem;
+        font-weight: 600;
+        color: $primary-color;
+        margin-bottom: 1rem;
+        a{
+            font-size: 1rem;
+            font-weight: 600;
+            color: $primary-color;
+            margin-bottom: 1rem;
+        }
+    }
+}
 .retos{
     .views-field-field-image {
         margin-bottom: 1rem;
@@ -64,6 +116,11 @@
         position: relative;
         margin-top: 2rem;
     }
+}
+.column-block{
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 4rem;
+      }
 }
 
 .completo{
@@ -217,7 +274,7 @@ blockquote, blockquote p {
     line-height: 1.5;
     color: $black;
     @media only screen and (max-width: 600px) {
-        line-height: 1.2;
+        line-height: 1.5;
       }
 }
 blockquote {
@@ -243,27 +300,7 @@ section#block-milab-content{
         font-size: 1.2rem;
     }
 }
-.node--type-article{
-    text-align: left !important;
-    .view-mode-full {
-        padding: 0 20%;
-        display: inline-block;
-    }
-    .field-name-field-tags{
-        padding: 0 20%;
-        display: inline-block;
-    }
-    .field-name-field-image{
-        margin-bottom: 2rem;
-    }
-    .field-name-field-fecha{
-        display: block;
-        width: 100%;
-        font-size: 0.9rem;
-        margin-bottom: 1rem;
-        color: $primary-color;
-    }
-}
+
 .posted {
     display: none;
 }
@@ -271,6 +308,9 @@ section#block-views-block-detalle-mapeo-govtech-block-3{
     h2{
         color: $white;
         margin-bottom: 6rem;
+        @media only screen and (max-width: 600px) {
+            margin-bottom: 2rem;
+          }
     }
     .title{
         color: $white;
@@ -286,6 +326,25 @@ section#block-views-block-detalle-mapeo-govtech-block-3{
             height: 48px;
             content: "";
             background: url(../images/document.png);
+            @media only screen and (max-width: 600px) {
+                display: none;
+              }
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        a.button {
+            font-size: 0.6rem;
+        }
+      }
+}
+a.feed-icon {
+    display: none;
+}
+.section-taxonomy{
+    .views-row {
+        margin-bottom: 1rem;
+        @media only screen and (max-width: 600px){
+            margin-bottom: 2rem;
         }
     }
 }
