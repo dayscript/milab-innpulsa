@@ -42,6 +42,17 @@ header.header {
             }
         }
  }
+ &:before{
+     position: absolute;
+     content: "";
+     bottom: -2rem;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 67px;
+     height: 67px;
+     background: url(../images/scroll.png);
+     z-index: 2;
+ }
 }
 
 
