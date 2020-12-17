@@ -102,9 +102,9 @@
 		$(".equipo-slider").owlCarousel({
 				  loop: true,
 				  margin: 0,
-				  dots: true,
+				  //dots: true,
 				  items: 4,
-				  center: true,
+				  //center: true,
 				  autoplay: true,
 				  autoHeight:true,
 				  responsive:{
