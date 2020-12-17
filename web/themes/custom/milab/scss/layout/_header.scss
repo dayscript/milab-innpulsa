@@ -3,6 +3,36 @@ header.header {
     position: absolute;
     z-index: 2;
     padding: 1rem 0;
+    section#block-milab-branding {
+        display: inline-block;
+        width: 20%;
+        float: left;
+        margin-top: 1rem;
+        @media only screen and (max-width: 600px){
+            display: block;
+            margin-top: 0;
+            width: 55%;
+            text-align: center;
+        }
+    }
+    nav#block-milab-main-menu {
+        display: inline-block;
+        width: 60%;
+        float: left;
+    }
+    section#block-logosrigth {
+        display: inline-block;
+        width: 20%;
+        float: left; 
+        @media only screen and (min-width: 1300px) {
+            width: 13%;
+            float: left; 
+        }
+        @media only screen and (max-width: 600px){
+            display: block;
+            width: 70%;
+        }
+    }
 }
 .homeslider{
     position: relative;
@@ -12,11 +42,11 @@ header.header {
     .info {
         position: absolute;
         z-index: 2;
-        top: 50%;
+        top: 60%;
         text-align: center;
         left: 0;
         right: 0;
-        transform: translateY(-50%);
+        transform: translateY(-60%);
         color: white;
         @media only screen and (max-width: 600px) {
             top: 60%;
@@ -28,12 +58,12 @@ header.header {
             color: $white;
         }
         .subtitle{
-            font-size: 1.6rem;
+            font-size: 1.2rem;
             padding: 0 20%;
             margin-bottom: 2rem; 
             @media only screen and (max-width: 600px) {
                 font-size: 1rem;
-            padding: 0 10%;
+                padding: 0 10%;
               }
         }
         .button{
@@ -42,24 +72,23 @@ header.header {
             }
         }
  }
- &:before{
-     position: absolute;
-     content: "";
-     bottom: -2rem;
-     left: 50%;
-     transform: translateX(-50%);
-     width: 67px;
-     height: 67px;
-     background: url(../images/scroll.png);
-     z-index: 2;
- }
+ .owl-nav {
+    display: none;
+}
+.owl-dots {
+    position: absolute;
+    bottom: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
 }
 
 
 .menu-header{
     margin-top: 1rem;
     ul.menu.dropdown {
-        display: inline-block;
+        display: block;
+        text-align: center;
         li{
             a{
                 background: transparent;
@@ -67,6 +96,7 @@ header.header {
                 font-size: 1rem;
                 text-transform: uppercase;
                 font-weight: 500;
+                font-family: 'Roboto Condensed', sans-serif;
                 &:hover{
                     color: $primary-color;
                 }
@@ -77,27 +107,33 @@ header.header {
         }
     }
 }
+
 .entidades{
-    margin-top: 1rem;
-    @media only screen and (max-width: 600px) {
-        text-align: center;
-      }
+    text-align: right;
     img{
-        width: 46%;
-        display: inline-block;
-        @media only screen and (max-width: 600px) {
-            width: 30%;
-          }
+        max-width: 70%;
+    }
+    @media only screen and (max-width: 600px) {
+        margin-top: 0.5rem;
+        img{
+            display: inline-block;
+            float: left;
+            max-width: 45%;
+            padding-right: 0.3rem;
+        }
     }
 }
 
 
 section#block-encabezadointernas {
-    height: 96px;
+    height: 120px;
     overflow: hidden;
     margin-bottom: 2rem;
+    img{
+        width: 100%;
+    }
     @media only screen and (max-width: 600px) {
-        height: 140px;
+        height: 60px;
         img{
             height: 200%;
         }
