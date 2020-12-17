@@ -179,16 +179,16 @@
 }
 
 .convocatoria{
-        background: $secondary-color;
-        padding: 1rem;
-        min-height: 300px;
-        margin-bottom: 2rem;
-        .icon {
-            width: 73px;
-            float: right;
-            margin-bottom: 0.9rem;
-        }
-
+    color: $white;
+    background: $secondary-color;
+    padding: 1rem;
+    min-height: 300px;
+    margin-bottom: 2rem;
+    .icon {
+        width: 73px;
+        float: right;
+        margin-bottom: 0.9rem;
+    }
     .estado{
         font-size: 0.8rem;
         font-weight: 500;
