@@ -4,6 +4,14 @@
         width: 100%;
     }
 }
+.node--type-article {
+    .field-name-field-fecha{
+        color: #232c38 !important;
+        font-size: 0.9rem !important;
+        font-weight: initial !important;
+        margin-bottom: 0 !important;
+    }
+}
 .node--type-retos, .node--type-convocatorias, .node--type-article, .section-taxonomy {
     section#block-milab-content{ 
         padding: 0 20%;
@@ -27,12 +35,11 @@
         margin-bottom: 2rem;
     }
     .field-name-field-fecha{
-        font-size: 0.9rem;
-/*         display: inline-block;
+        display: inline-block;
         font-size: 0.8rem;
         margin-bottom: 1rem;
         color: $black;
-        font-weight: 600; */
+        font-weight: 600;
     }
     .field-label {
         text-transform: uppercase;
