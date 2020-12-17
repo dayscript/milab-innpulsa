@@ -398,9 +398,11 @@ section#block-responsivemenumobileicon {
     background: #142366;
 }
 
-.equipo-slider .owl-item img{
-    max-width: 100px;
-    margin: auto;
+.equipo-slider{
+    .owl-item img{
+        max-width: 100px;
+        margin: auto;
+    }
     .views-field-field-subtitulo{
         color: $primary-color;
     }
