@@ -100,23 +100,23 @@
 		  }
 		});
 		$(".equipo-slider").owlCarousel({
-				  loop: true,
-				  margin: 0,
-				  //dots: true,
-				  items: 4,
-				  //center: true,
-				  autoplay: true,
-				  autoHeight:true,
-				  responsive:{
-				    0:{
-				      nav:false
-				    },
-				    600:{
-				      nav:false
-				    }
-				  }
-				});
+			loop: true,
+			margin: 0,
+			items: 4,
+			autoplay: true,
+			autoHeight:true,
+			responsive:{
+				0:{
+					nav:false
+				},
+				600:{
+					nav:false
+				}
+			}
+		});
+		if ($('#block-views-block-detalle-mapeo-govtech-block-3 .views-row .title').length == 0) {
+			$('#block-views-block-detalle-mapeo-govtech-block-3').hide();
+		}
     }
   };
-
 })(jQuery, Drupal);
