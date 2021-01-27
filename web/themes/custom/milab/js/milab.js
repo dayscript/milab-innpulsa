@@ -17,7 +17,7 @@
 		  dots: true,
 		  items: 1,
 		  center: true,
-		  nav: true,
+		  nav: false,
 		  autoplay: true,
 		  autoHeight:true,
 		  responsive:{
@@ -25,7 +25,7 @@
 		      nav:false
 		    },
 		    600:{
-		      nav:true
+		      nav:false
 		    }
 		  }
 		});
@@ -35,15 +35,14 @@
 		  dots: true,
 		  items: 3,
 		  center: true,
-		  nav: true,
 		  autoplay: true,
 		  autoHeight:true,
 		  responsive:{
 		    0:{
-				items: 1,
+		    	items: 1,
 		    },
 		    600:{
-		      nav:true
+		    	nav:false
 		    }
 		  }
 		});
@@ -53,7 +52,6 @@
 		  dots: true,
 		  items: 3,
 		  center: true,
-		  nav: true,
 		  autoplay: true,
 		  autoHeight:true,
 		  responsive:{
@@ -61,7 +59,7 @@
 				items: 1,
 		    },
 		    600:{
-		      nav:true
+		    	nav:false
 		    }
 		  }
 		});
