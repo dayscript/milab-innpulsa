@@ -1,0 +1,26 @@
+{#
+/**
+ * @file
+ * Display Suite 1 column template.
+ *
+ * Available variables:
+ * - ds_content_wrapper: wrapper around content
+ * - attributes: content region attributes
+ * - ds_content: content region
+ */
+#}
+<{{ ds_content_wrapper }}{{ attributes.addClass('ds-1col', 'clearfix') }}>
+
+  {{ title_suffix.contextual_links }}
+
+  {{ ds_content.field_tags }}
+  {{ ds_content.field_fecha }}
+  {% if node.hasField('field_subtitulo') and node.field_subtitulo.value %}
+  	{{ content.field_subtitulo }}
+  {% else %}
+  	{{ ds_content.field_fecha_cierre }}
+  {% endif %}
+  {{ ds_content.field_image }}
+  {{ ds_content.body }}
+
+</{{ ds_content_wrapper }}>

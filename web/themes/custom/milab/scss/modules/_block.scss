@@ -48,7 +48,7 @@
         font-weight: 400 !important;
         color: $black !important;
     }
-    .field-name-field-aliado, .field-name-field-tags, .field-name-field-enlace, .field-name-field-fecha, .field-name-field-fecha-cierre{
+    .field-name-field-aliado, .field-name-field-tags, .field-name-field-enlace, .field-name-field-fecha, .field-name-field-fecha-cierre, .field-name-field-subtitulo{
         font-size: 1rem;
         font-weight: 600;
         color: $primary-color;
@@ -405,5 +405,19 @@ section#block-responsivemenumobileicon {
     }
     .views-field-field-subtitulo{
         color: $primary-color;
+    }
+}
+
+.paragraph--type--texto-imagen-der,
+.paragraph--type--imagen-izq-texto{
+    align-items: center;
+    display: flex;
+}
+
+#block-views-block-detalle-nosotros-block-4{
+    .views-field-field-respuesta{
+        h3{
+            text-align: left;
+        }
     }
 }
