@@ -410,8 +410,10 @@ section#block-responsivemenumobileicon {
 
 .paragraph--type--texto-imagen-der,
 .paragraph--type--imagen-izq-texto{
-    align-items: center;
-    display: flex;
+    @media (min-width: 640px) {
+        display: flex;
+        align-items: center;
+    }
 }
 
 #block-views-block-detalle-nosotros-block-4{

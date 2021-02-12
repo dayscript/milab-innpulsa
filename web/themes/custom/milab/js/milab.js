@@ -116,16 +116,13 @@
 		});
 		$(".equipo-slider").owlCarousel({
 			loop: true,
-			margin: 0,
 			items: 4,
 			autoplay: true,
-			autoHeight:true,
 			responsive:{
 				0:{
-					nav:false
+					items: 2,
 				},
 				600:{
-					nav:false
 				}
 			}
 		});
