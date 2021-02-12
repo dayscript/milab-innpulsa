@@ -11,7 +11,7 @@
   Drupal.behaviors.exampleBehavior = {
     attach: function (context, settings) {
       //alert("I'm alive!");
-		$(".home-slider").owlCarousel({
+		$(".home-slider, .home-slider-mobile").owlCarousel({
 		  loop: true,
 		  margin: 0,
 		  dots: true,
