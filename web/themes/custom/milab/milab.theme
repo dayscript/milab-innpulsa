@@ -43,10 +43,19 @@ function milab_preprocess_page(&$variables) {
   if ($variables['is_front']) {
     unset($variables['page']['content']['milab_content']);
   }
+  
+  // Convenience variables
+  if (isset($variables['page']['sidebar_first'])) {
+    $left = $variables['page']['sidebar_first'];
+  }
+  if (isset($variables['page']['sidebar_second'])) {
+    $right = $variables['page']['sidebar_second'];
+  }
+
   // Dynamic sidebars
   if (!empty($left) && !empty($right)) {
     $variables['main_grid'] = 'medium-6 medium-push-3';
-    $variables['sidebar_first_grid'] = 'medium-3 medium-pull-6';
+    $variables['sidebar_sec_grid'] = 'medium-3 medium-pull-6';
     $variables['sidebar_sec_grid'] = 'medium-3';
   }
   elseif (empty($left) && !empty($right)) {
@@ -60,7 +69,7 @@ function milab_preprocess_page(&$variables) {
     $variables['sidebar_sec_grid'] = '';
   }
   else {
-    $variables['main_grid'] = 'large-12';
+    $variables['main_grid'] = 'large-12 test';
     $variables['sidebar_first_grid'] = '';
     $variables['sidebar_sec_grid'] = '';
   }
