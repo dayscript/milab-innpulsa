@@ -170,3 +170,401 @@
 
 // Older IE support
 // @import 'vendor/ie';
+
+.views-exposed-form {
+    legend {
+      width: 100%;
+      border-bottom: 1px solid #cf3f7e;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.8rem;
+  
+      .fieldset-legend {
+        text-transform: uppercase;
+        color: #cf3f7e;
+        font-weight: 600;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+    }
+  
+    .js-form-type-checkbox {
+      label {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #333;
+      }
+    }
+  
+    .form-select {
+      border-radius: 6px;
+      color: #555;
+      background-color: #f7f7f7;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+  
+    .js-form-type-select {
+      & > label {
+        text-transform: uppercase;
+        color: #cf3f7e;
+        font-weight: 600;
+        font-family: 'Roboto Condensed', sans-serif;
+        border-bottom: 1px solid #cf3f7e;
+        padding-bottom: 0.4rem;
+        margin-bottom: 1.2rem;
+      }
+    }
+  
+    form {
+      & > .form-item {
+        margin-bottom: 1rem;
+      }
+    }
+  
+    .block-title {
+      color: #cf3f7e;
+      display: flex;
+      align-items: center;
+      font-size: 1.5625rem;
+  
+      &::before {
+        content: '';
+        display: block;
+        background: url(../images/filtro.png) center center no-repeat;
+        width: 24px;
+        height: 24px;
+        margin-right: 0.3rem;
+      }
+    }
+
+    [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+        border-radius: 6px;
+        background-color: #fefefe;
+        box-shadow: none;
+    }
+  }
+
+  header {
+      & > .columns {
+          & > div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+      }
+      &.header {
+        width: 100%;
+        margin-top: 0.85rem;
+
+        section {
+            &#block-milab-branding {
+                margin: 0;
+            }
+        }
+
+        nav {
+            &#block-milab-main-menu {
+                float: none;
+                text-align: right;
+                margin: 0;
+
+                ul {
+                    &.menu.dropdown {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+      }
+  }
+
+.item {
+    border: 2px solid #eee;
+    padding: 1rem;
+    border-radius: 6px;
+
+    .imagen {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .segmento {
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    .tecnologia {
+        font-size: 0.7rem;
+        color: #cf3f7e;
+        margin-bottom: 0.5rem;
+    }
+
+    .texto {
+        font-size: 0.8rem;
+        
+        p {
+            line-height: 1.6;
+        }
+    }
+
+    .pie {
+        display: flex;
+        justify-content: space-between;
+
+        .sector {
+            font-size: 0.7rem;
+            color: #cf3f7e;
+            line-height: 1.6;
+        }
+    
+        .ubicación {
+            line-height: 1;
+            display: flex;
+            align-items: center;
+
+            &::before {
+                content: "";
+                display: inline-block;
+                background: url('../images/marker.png');
+                width: 9px;
+                height: 12px;
+                margin-right: 0.2rem;
+            }
+
+            .departamento {
+                font-size: 0.7rem;
+                color: #cf3f7e;
+            }
+    
+            .ciudad {
+                font-size: 0.7rem;
+                color: #cf3f7e;
+            }
+        }
+    }
+
+    .info-container {
+        border-left: 2px solid #cf3f7e;
+        padding-left: 0.5rem;
+        margin-bottom: 1rem;
+
+        .info {
+            font-size: 0.8rem;
+
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        .social {
+            display: flex;
+            justify-content: flex-start;
+
+            & > div {
+                margin-right: 0.2rem;
+            }
+        }
+    }
+}
+
+.item-2 {
+    border: 2px solid #eee;
+    padding: 1rem;
+    border-radius: 6px;
+
+    .titulo {
+        font-weight: 600;
+        font-size: 0.9rem;
+
+        a {
+            color: #333;
+        }
+    }
+
+    .segmento {
+        font-size: 0.7rem;
+        color: #cf3f7e;
+        margin-bottom: 0.5rem;
+    }
+
+    .solucionador {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 1rem;
+        padding-bottom: 0.8rem;
+        border-top: 1px solid #ddd;
+        margin-top: 1rem;
+        padding-top: 0.8rem;
+
+        .solucionador-nombre {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #cf3f7e;
+        }
+
+        .tecnologia {
+            font-size: 0.7rem;
+    
+            span {
+                color: #cf3f7e;
+            }
+        }    
+    }
+
+    .texto {
+        font-size: 0.8rem;
+        min-height: 100px;
+        
+        p {
+            line-height: 1.6;
+        }
+    }
+
+    .pie {
+        display: flex;
+        justify-content: space-between;
+
+        .sector {
+            font-size: 0.7rem;
+            color: #cf3f7e;
+            line-height: 1.6;
+        }
+    
+        .ubicación {
+            line-height: 1;
+            display: flex;
+            align-items: center;
+
+            &::before {
+                content: "";
+                display: inline-block;
+                background: url('../images/marker.png');
+                width: 9px;
+                height: 12px;
+                margin-right: 0.2rem;
+            }
+
+            .departamento {
+                font-size: 0.7rem;
+                color: #cf3f7e;
+            }
+    
+            .ciudad {
+                font-size: 0.7rem;
+                color: #cf3f7e;
+            }
+        }
+    }
+}
+
+#block-encabezadomarketplace {
+    background: #642c89;
+    padding: 3rem 0 7rem 0;
+    margin-top: -2rem;
+
+    .text-1 {
+        border-right: 2px solid #fff;
+        padding-right: 2rem;
+
+        h1 {
+            line-height: 1;
+            text-align: right;
+            color: #fff;
+            margin: 0;
+            font-size: 4.5rem;
+        }
+    }
+
+    .text-2 {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        color: #fff;
+        padding-left: 2rem;
+    }
+}
+
+#block-marketplacemenu {
+    margin-bottom: 4rem;
+
+    .menu {
+        justify-content: center;
+
+        li {
+            a {
+                font-family: 'Roboto Condensed', sans-serif;
+                text-transform: uppercase;
+                font-size: 1.8rem;
+                background-color: #cf3f7e;
+                color: #fff;
+                padding: 0.6rem 4rem;
+                border-radius: 6px 6px 0 0;
+                margin: -3rem 0.2rem 0 0.2rem;
+                display: block;
+                width: 500px;
+                text-align: center;
+
+                &.is-active, &:hover {
+                    background-color: #fff;
+                    color: #cf3f7e;
+                }
+            }
+        }
+    }
+}
+
+.path-solucionadores #sidebar-first, .path-soluciones #sidebar-first, .node--type-solucion #sidebar-first {
+    width: 25%;
+    float: left;
+}
+
+.path-solucionadores #main, .path-soluciones #main, .node--type-solucion #main {
+    width: 75%;
+    float: right;
+}
+
+.path-solucionadores .container-footer,
+.path-soluciones .container-footer {
+    margin-top: 2rem;
+}
+
+.node--type-solucion {
+    .breadcrumbs {
+        display: none;
+    }
+
+    #block-milab-page-title {
+        display: none;
+    }
+}
+
+#block-views-block-marketplace-block-2 {
+    .titulo {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .categorias {
+        color: #cf3f7e;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .body {
+        font-size: 0.9rem;
+    }
+}
+
+#block-views-block-marketplace-block-3 {
+    margin-top: 3rem;
+    
+    .block-title {
+        font-size: 2rem;
+        text-align: left;
+    }
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    header {
+        &.header {
+          margin-top: 0;
+          padding: 0.7rem 0;
+        }
+    }
+}
