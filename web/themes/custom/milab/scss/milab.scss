@@ -514,12 +514,12 @@
     }
 }
 
-.path-solucionadores #sidebar-first, .path-soluciones #sidebar-first, .node--type-solucion #sidebar-first {
+.path-solucionadores #sidebar-first, .path-soluciones #sidebar-first, .node--type-solucion #sidebar-first, .node--type-solucionador #sidebar-first {
     width: 25%;
     float: left;
 }
 
-.path-solucionadores #main, .path-soluciones #main, .node--type-solucion #main {
+.path-solucionadores #main, .path-soluciones #main, .node--type-solucion #main, .node--type-solucionador #main {
     width: 75%;
     float: right;
 }
@@ -529,7 +529,7 @@
     margin-top: 2rem;
 }
 
-.node--type-solucion {
+.node--type-solucion, .node--type-solucionador {
     .breadcrumbs {
         display: none;
     }
