@@ -289,6 +289,10 @@
     .segmento {
         font-weight: 600;
         font-size: 0.9rem;
+
+        a {
+            color: #333;
+        }
     }
 
     .tecnologia {
@@ -586,7 +590,7 @@
         .text-1 {
             border: none;
             padding-right: 0;
-            
+
             h1 {
                 text-align: center;
             }
