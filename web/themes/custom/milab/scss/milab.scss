@@ -458,6 +458,16 @@
     }
 }
 
+#block-views-block-marketplace-block-5, #block-views-block-marketplace-block-2 {
+    .text {
+        img {
+            float: right;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
 #block-encabezadomarketplace {
     background: #642c89 url(../images/bg.png) center center no-repeat;
     background-size: cover;
