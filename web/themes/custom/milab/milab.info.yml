@@ -32,6 +32,7 @@ regions:
   sidebar_first: 'Left sidebar'
   sidebar_second: 'Right sidebar'
   top_footer: 'Top footer'
+  footer_top_full: 'Footer top full'
   footer_first: 'Footer first column'
   footer_middle: 'Footer middle column'
   footer_last: 'Footer last column'
