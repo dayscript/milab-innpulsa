@@ -186,6 +186,13 @@
         </div>
       </div>
       {% endif %}
+      {% if page.top_footer %}
+      <div class="top-footer row">
+        <div class="columns large-12">
+          {{ page.top_footer }}
+        </div>
+      </div>
+      {% endif %}
       <div class="container-footer">
         {% if page.footer_first or page.footer_middle or page.footer_last %}
         <footer class="row">
