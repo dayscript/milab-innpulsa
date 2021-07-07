@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
+    "content-hash": "71ff1a54e2bd4fcc7048530f1fd580ae",
+=======
     "content-hash": "2c7d374dedf6eda614350a340b735254",
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -344,6 +348,19 @@
             "time": "2020-10-14T08:51:15+00:00"
         },
         {
+<<<<<<< HEAD
+            "name": "doctrine/annotations",
+            "version": "1.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "ce77a7ba1770462cd705a91a151b6c3746f9c6ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/ce77a7ba1770462cd705a91a151b6c3746f9c6ad",
+                "reference": "ce77a7ba1770462cd705a91a151b6c3746f9c6ad",
+=======
             "name": "consolidation/annotated-command",
             "version": "4.2.4",
             "source": {
@@ -355,6 +372,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/ec297e05cb86557671c2d6cbb1bebba6c7ae2c60",
                 "reference": "ec297e05cb86557671c2d6cbb1bebba6c7ae2c60",
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
                 "shasum": ""
             },
             "require": {
@@ -366,14 +384,25 @@
                 "symfony/finder": "^4.4.8|^5"
             },
             "require-dev": {
+<<<<<<< HEAD
+                "doctrine/cache": "1.*",
+                "doctrine/coding-standard": "^6.0 || ^8.1",
+                "phpstan/phpstan": "^0.12.20",
+                "phpunit/phpunit": "^7.5 || ^9.1.5"
+=======
                 "phpunit/phpunit": ">=7.5.20",
                 "squizlabs/php_codesniffer": "^3",
                 "yoast/phpunit-polyfills": "^0.2.0"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
+                    "dev-master": "1.11.x-dev"
+=======
                     "dev-main": "4.x-dev"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
                 }
             },
             "autoload": {
@@ -391,6 +420,51 @@
                     "email": "greg.1.anderson@greenknowe.org"
                 }
             ],
+<<<<<<< HEAD
+            "description": "Docblock Annotations Parser",
+            "homepage": "https://www.doctrine-project.org/projects/annotations.html",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/annotations/issues",
+                "source": "https://github.com/doctrine/annotations/tree/1.11.1"
+            },
+            "time": "2020-10-26T10:28:16+00:00"
+        },
+        {
+            "name": "doctrine/cache",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/cache.git",
+                "reference": "a9c1b59eba5a08ca2770a76eddb88922f504e8e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/a9c1b59eba5a08ca2770a76eddb88922f504e8e0",
+                "reference": "a9c1b59eba5a08ca2770a76eddb88922f504e8e0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.1 || ^8.0"
+            },
+            "conflict": {
+                "doctrine/common": ">2.2,<2.4",
+                "psr/cache": ">=3"
+            },
+            "require-dev": {
+                "alcaeus/mongo-php-adapter": "^1.1",
+                "cache/integration-tests": "dev-master",
+                "doctrine/coding-standard": "^8.0",
+                "mongodb/mongodb": "^1.1",
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+                "predis/predis": "~1.0",
+                "psr/cache": "^1.0 || ^2.0",
+                "symfony/cache": "^4.4 || ^5.2"
+=======
             "description": "Initialize Symfony Console commands from annotated command class methods.",
             "support": {
                 "issues": "https://github.com/consolidation/annotated-command/issues",
@@ -424,11 +498,14 @@
                 "squizlabs/php_codesniffer": "2.*",
                 "symfony/console": "^2.5|^3|^4",
                 "symfony/yaml": "^2.8.11|^3|^4"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             },
             "suggest": {
                 "symfony/yaml": "Required to use Consolidation\\Config\\Loader\\YamlConfigLoader"
             },
             "type": "library",
+<<<<<<< HEAD
+=======
             "extra": {
                 "scenarios": {
                     "symfony4": {
@@ -461,6 +538,7 @@
                     "dev-master": "1.x-dev"
                 }
             },
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             "autoload": {
                 "psr-4": {
                     "Consolidation\\Config\\": "src"
@@ -476,12 +554,47 @@
                     "email": "greg.1.anderson@greenknowe.org"
                 }
             ],
+<<<<<<< HEAD
+            "description": "PHP Doctrine Cache library is a popular cache implementation that supports many different drivers such as redis, memcache, apc, mongodb and others.",
+            "homepage": "https://www.doctrine-project.org/projects/cache.html",
+            "keywords": [
+                "abstraction",
+                "apcu",
+                "cache",
+                "caching",
+                "couchdb",
+                "memcached",
+                "php",
+                "redis",
+                "xcache"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/cache/issues",
+                "source": "https://github.com/doctrine/cache/tree/1.11.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fcache",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-13T14:46:17+00:00"
+=======
             "description": "Provide configuration services for a commandline tool.",
             "support": {
                 "issues": "https://github.com/consolidation/config/issues",
                 "source": "https://github.com/consolidation/config/tree/master"
             },
             "time": "2019-03-03T19:37:04+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "consolidation/filter-via-dot-access-data",
@@ -547,11 +660,27 @@
                     "email": "greg.1.anderson@greenknowe.org"
                 }
             ],
+<<<<<<< HEAD
+            "description": "PHP Doctrine Collections library that adds additional functionality on top of PHP arrays.",
+            "homepage": "https://www.doctrine-project.org/projects/collections.html",
+            "keywords": [
+                "array",
+                "collections",
+                "iterators",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/collections/issues",
+                "source": "https://github.com/doctrine/collections/tree/1.6.7"
+            },
+            "time": "2020-07-27T17:53:49+00:00"
+=======
             "description": "This project uses dflydev/dot-access-data to provide simple output filtering for applications built with annotated-command / Robo.",
             "support": {
                 "source": "https://github.com/consolidation/filter-via-dot-access-data/tree/1.0.0"
             },
             "time": "2019-01-18T06:05:07+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "consolidation/log",
@@ -598,12 +727,41 @@
                     "email": "greg.1.anderson@greenknowe.org"
                 }
             ],
+<<<<<<< HEAD
+            "description": "PHP Doctrine Common project is a library that provides additional functionality that other Doctrine projects depend on such as better reflection support, persistence interfaces, proxies, event system and much more.",
+            "homepage": "https://www.doctrine-project.org/projects/common.html",
+            "keywords": [
+                "common",
+                "doctrine",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/common/issues",
+                "source": "https://github.com/doctrine/common/tree/2.13.x"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fcommon",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-05T16:46:05+00:00"
+=======
             "description": "Improved Psr-3 / Psr\\Log logger based on Symfony Console components.",
             "support": {
                 "issues": "https://github.com/consolidation/log/issues",
                 "source": "https://github.com/consolidation/log/tree/2.0.2"
             },
             "time": "2020-12-10T16:26:23+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "consolidation/output-formatters",
@@ -657,6 +815,60 @@
                     "email": "greg.1.anderson@greenknowe.org"
                 }
             ],
+<<<<<<< HEAD
+            "description": "The Doctrine Event Manager is a simple PHP event system that was built to be used with the various Doctrine projects.",
+            "homepage": "https://www.doctrine-project.org/projects/event-manager.html",
+            "keywords": [
+                "event",
+                "event dispatcher",
+                "event manager",
+                "event system",
+                "events"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/event-manager/issues",
+                "source": "https://github.com/doctrine/event-manager/tree/1.1.x"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fevent-manager",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-29T18:28:51+00:00"
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "1.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9",
+                "reference": "4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^8.0",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan-strict-rules": "^0.12",
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+=======
             "description": "Format text by applying transformations provided by plug-in formatters.",
             "support": {
                 "issues": "https://github.com/consolidation/output-formatters/issues",
@@ -705,6 +917,7 @@
                 "phpdocumentor/reflection-docblock": "^4.3.2",
                 "phpunit/phpunit": "^6.5.14",
                 "squizlabs/php_codesniffer": "^3"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             },
             "suggest": {
                 "henrikbjorn/lurker": "For monitoring filesystem changes in taskWatch",
@@ -758,12 +971,48 @@
                     "email": "davert.php@resend.cc"
                 }
             ],
+<<<<<<< HEAD
+            "description": "PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.",
+            "homepage": "https://www.doctrine-project.org/projects/inflector.html",
+            "keywords": [
+                "inflection",
+                "inflector",
+                "lowercase",
+                "manipulation",
+                "php",
+                "plural",
+                "singular",
+                "strings",
+                "uppercase",
+                "words"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/inflector/issues",
+                "source": "https://github.com/doctrine/inflector/tree/1.4.4"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finflector",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-16T17:34:40+00:00"
+=======
             "description": "Modern task runner",
             "support": {
                 "issues": "https://github.com/consolidation/Robo/issues",
                 "source": "https://github.com/consolidation/Robo/tree/2.2.2"
             },
             "time": "2020-12-18T22:09:18+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "consolidation/self-update",
@@ -812,12 +1061,43 @@
                     "email": "greg.1.anderson@greenknowe.org"
                 }
             ],
+<<<<<<< HEAD
+            "description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "https://www.doctrine-project.org/projects/lexer.html",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "lexer",
+                "parser",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/lexer/issues",
+                "source": "https://github.com/doctrine/lexer/tree/1.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Flexer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-25T17:44:05+00:00"
+=======
             "description": "Provides a self:update command for Symfony Console applications.",
             "support": {
                 "issues": "https://github.com/consolidation/self-update/issues",
                 "source": "https://github.com/consolidation/self-update/tree/1.2.0"
             },
             "time": "2020-04-13T02:49:20+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "consolidation/site-alias",
@@ -870,6 +1150,65 @@
                     "email": "weitzman@tejasa.com"
                 }
             ],
+<<<<<<< HEAD
+            "description": "The Doctrine Persistence project is a set of shared interfaces and functionality that the different Doctrine object mappers share.",
+            "homepage": "https://doctrine-project.org/projects/persistence.html",
+            "keywords": [
+                "mapper",
+                "object",
+                "odm",
+                "orm",
+                "persistence"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/persistence/issues",
+                "source": "https://github.com/doctrine/persistence/tree/1.3.x"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fpersistence",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-20T12:56:16+00:00"
+        },
+        {
+            "name": "doctrine/reflection",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/reflection.git",
+                "reference": "fa587178be682efe90d005e3a322590d6ebb59a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/reflection/zipball/fa587178be682efe90d005e3a322590d6ebb59a5",
+                "reference": "fa587178be682efe90d005e3a322590d6ebb59a5",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "^1.0",
+                "ext-tokenizer": "*",
+                "php": "^7.1 || ^8.0"
+            },
+            "conflict": {
+                "doctrine/common": "<2.9"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^6.0 || ^8.2.0",
+                "doctrine/common": "^2.10",
+                "phpstan/phpstan": "^0.11.0 || ^0.12.20",
+                "phpstan/phpstan-phpunit": "^0.11.0 || ^0.12.16",
+                "phpunit/phpunit": "^7.5 || ^9.1.5"
+=======
             "description": "Manage alias records for local and remote sites.",
             "support": {
                 "issues": "https://github.com/consolidation/site-alias/issues",
@@ -902,6 +1241,7 @@
                 "phpunit/phpunit": "^7.5.20|^8.5.14",
                 "squizlabs/php_codesniffer": "^3",
                 "yoast/phpunit-polyfills": "^0.2.0"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             },
             "type": "library",
             "extra": {
@@ -928,12 +1268,27 @@
                     "email": "weitzman@tejasa.com"
                 }
             ],
+<<<<<<< HEAD
+            "description": "The Doctrine Reflection project is a simple library used by the various Doctrine projects which adds some additional functionality on top of the reflection functionality that comes with PHP. It allows you to get the reflection information about classes, methods and properties statically.",
+            "homepage": "https://www.doctrine-project.org/projects/reflection.html",
+            "keywords": [
+                "reflection",
+                "static"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/reflection/issues",
+                "source": "https://github.com/doctrine/reflection/tree/1.2.2"
+            },
+            "abandoned": "roave/better-reflection",
+            "time": "2020-10-27T21:46:55+00:00"
+=======
             "description": "A thin wrapper around the Symfony Process Component that allows applications to use the Site Alias library to specify the target for a remote call.",
             "support": {
                 "issues": "https://github.com/consolidation/site-process/issues",
                 "source": "https://github.com/consolidation/site-process/tree/4.1.0"
             },
             "time": "2021-02-21T02:53:33+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "container-interop/container-interop",
@@ -3297,6 +3652,50 @@
             }
         },
         {
+            "name": "drupal/google_tag",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/google_tag.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/google_tag-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "1bdc6f93d1c79c27738320597f2185f5de37432f"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1593179846",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "solotandem",
+                    "homepage": "https://www.drupal.org/user/240748"
+                }
+            ],
+            "description": "Allows your website analytics to be managed using Google Tag Manager.",
+            "homepage": "https://www.drupal.org/project/google_tag",
+            "support": {
+                "source": "https://git.drupalcode.org/project/google_tag"
+            }
+        },
+        {
             "name": "drupal/jquery_ui",
             "version": "1.4.0",
             "source": {
@@ -4352,6 +4751,20 @@
             }
         },
         {
+<<<<<<< HEAD
+            "name": "drupal/views_infinite_scroll",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_infinite_scroll.git",
+                "reference": "8.x-1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_infinite_scroll-8.x-1.8.zip",
+                "reference": "8.x-1.8",
+                "shasum": "b9fceb24184792fb81c4e2ff1bf7f18fd8e50674"
+=======
             "name": "drupal/webform",
             "version": "6.0.4",
             "source": {
@@ -4364,6 +4777,7 @@
                 "url": "https://ftp.drupal.org/files/projects/webform-6.0.4.zip",
                 "reference": "6.0.4",
                 "shasum": "8b87ffb19f980e9d77957dfb2d784a1a68619d57"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -4411,8 +4825,13 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
+<<<<<<< HEAD
+                    "version": "8.x-1.8",
+                    "datestamp": "1614959012",
+=======
                     "version": "6.0.4",
                     "datestamp": "1624461046",
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4463,6 +4882,23 @@
             }
         },
         {
+<<<<<<< HEAD
+            "name": "drupal/views_list_sort",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_list_sort.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_list_sort-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "e8d15f7f99508cb08b4e2e497f7695eb86e6c28c"
+            },
+            "require": {
+                "drupal/core": "^8.0 || ^9.0"
+=======
             "name": "drupal/webform_shs",
             "version": "1.0.0-alpha5",
             "source": {
@@ -4480,15 +4916,24 @@
                 "drupal/core": "^8.8 || ^9",
                 "drupal/shs": "*",
                 "drupal/webform": "*"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
+<<<<<<< HEAD
+                    "version": "8.x-1.3",
+                    "datestamp": "1608241900",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+=======
                     "version": "8.x-1.0-alpha5",
                     "datestamp": "1621552451",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
                     }
                 }
             },
@@ -4511,8 +4956,13 @@
             "description": "Provides an SHS term select element for webform",
             "homepage": "https://drupal.org/project/webform_shs",
             "support": {
+<<<<<<< HEAD
+                "source": "http://git.drupal.org/project/views_list_sort.git",
+                "issues": "https://www.drupal.org/project/issues/views_list_sort"
+=======
                 "source": "https://git.drupalcode.org/project/webform_shs",
                 "issues": "https://www.drupal.org/project/issues/webform_shs"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             }
         },
         {
@@ -4906,6 +5356,19 @@
             "time": "2017-12-21T22:14:55+00:00"
         },
         {
+<<<<<<< HEAD
+            "name": "egulias/email-validator",
+            "version": "2.1.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/egulias/EmailValidator.git",
+                "reference": "68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5",
+                "reference": "68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5",
+=======
             "name": "grasmash/yaml-expander",
             "version": "1.4.0",
             "source": {
@@ -4917,6 +5380,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/grasmash/yaml-expander/zipball/3f0f6001ae707a24f4d9733958d77d92bf9693b1",
                 "reference": "3f0f6001ae707a24f4d9733958d77d92bf9693b1",
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
                 "shasum": ""
             },
             "require": {
@@ -4938,7 +5402,11 @@
             },
             "autoload": {
                 "psr-4": {
+<<<<<<< HEAD
+                    "Egulias\\EmailValidator\\": "src"
+=======
                     "Grasmash\\YamlExpander\\": "src/"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4950,12 +5418,29 @@
                     "name": "Matthew Grasmick"
                 }
             ],
+<<<<<<< HEAD
+            "description": "A library for validating emails against several RFCs",
+            "homepage": "https://github.com/egulias/EmailValidator",
+            "keywords": [
+                "email",
+                "emailvalidation",
+                "emailvalidator",
+                "validation",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/egulias/EmailValidator/issues",
+                "source": "https://github.com/egulias/EmailValidator/tree/2.1.22"
+            },
+            "time": "2020-09-26T15:48:38+00:00"
+=======
             "description": "Expands internal property references in a yaml file.",
             "support": {
                 "issues": "https://github.com/grasmash/yaml-expander/issues",
                 "source": "https://github.com/grasmash/yaml-expander/tree/master"
             },
             "time": "2017-12-16T16:06:03+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5524,6 +6009,8 @@
                 }
             ],
             "time": "2020-09-14T14:23:00+00:00"
+<<<<<<< HEAD
+=======
         },
         {
             "name": "league/container",
@@ -5601,6 +6088,7 @@
                 }
             ],
             "time": "2021-02-22T09:20:06+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "masterminds/html5",
@@ -5670,6 +6158,8 @@
                 "source": "https://github.com/Masterminds/html5-php/tree/2.7.4"
             },
             "time": "2020-10-01T13:52:52+00:00"
+<<<<<<< HEAD
+=======
         },
         {
             "name": "nikic/php-parser",
@@ -5726,6 +6216,7 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.10.5"
             },
             "time": "2021-05-03T19:11:20+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "pear/archive_tar",
@@ -6246,10 +6737,16 @@
                 "shell"
             ],
             "support": {
+<<<<<<< HEAD
+                "source": "https://github.com/php-fig/log/tree/1.1.3"
+            },
+            "time": "2020-03-23T09:12:05+00:00"
+=======
                 "issues": "https://github.com/bobthecow/psysh/issues",
                 "source": "https://github.com/bobthecow/psysh/tree/v0.10.8"
             },
             "time": "2021-04-10T16:23:39+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         },
         {
             "name": "ralouphie/getallheaders",
@@ -6612,6 +7109,8 @@
                 "symfony/yaml": ""
             },
             "type": "library",
+<<<<<<< HEAD
+=======
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\DependencyInjection\\": ""
@@ -6681,6 +7180,7 @@
                 "symfony/serializer": "^4.4|^5.0"
             },
             "type": "library",
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\ErrorHandler\\": ""
@@ -6884,6 +7384,41 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
+            "description": "Symfony DependencyInjection Component",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/dependency-injection/tree/v4.4.16"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-27T10:05:40+00:00"
+        },
+        {
+            "name": "symfony/error-handler",
+            "version": "v4.4.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/error-handler.git",
+                "reference": "363cca01cabf98e4f1c447b14d0a68617f003613"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/363cca01cabf98e4f1c447b14d0a68617f003613",
+                "reference": "363cca01cabf98e4f1c447b14d0a68617f003613",
+=======
             "time": "2020-07-06T13:19:58+00:00"
         },
         {
@@ -6898,6 +7433,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/filesystem/zipball/2d926ebd76f52352deb3c9577d8c1d4b96eae429",
                 "reference": "2d926ebd76f52352deb3c9577d8c1d4b96eae429",
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
                 "shasum": ""
             },
             "require": {
@@ -6930,7 +7466,11 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
+                "source": "https://github.com/symfony/error-handler/tree/v4.4.16"
+=======
                 "source": "https://github.com/symfony/filesystem/tree/v4.4.25"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             },
             "funding": [
                 {
@@ -6946,6 +7486,48 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
+            "time": "2020-10-24T11:50:19+00:00"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v4.4.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "4204f13d2d0b7ad09454f221bb2195fccdf1fe98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/4204f13d2d0b7ad09454f221bb2195fccdf1fe98",
+                "reference": "4204f13d2d0b7ad09454f221bb2195fccdf1fe98",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "symfony/event-dispatcher-contracts": "^1.1"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<3.4"
+            },
+            "provide": {
+                "psr/event-dispatcher-implementation": "1.0",
+                "symfony/event-dispatcher-implementation": "1.1"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "^3.4|^4.0|^5.0",
+                "symfony/dependency-injection": "^3.4|^4.0|^5.0",
+                "symfony/error-handler": "~3.4|~4.4",
+                "symfony/expression-language": "^3.4|^4.0|^5.0",
+                "symfony/http-foundation": "^3.4|^4.0|^5.0",
+                "symfony/service-contracts": "^1.1|^2",
+                "symfony/stopwatch": "^3.4|^4.0|^5.0"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+=======
             "time": "2021-05-26T17:30:55+00:00"
         },
         {
@@ -6964,6 +7546,7 @@
             },
             "require": {
                 "php": ">=7.2.5"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             },
             "type": "library",
             "autoload": {
@@ -6991,7 +7574,11 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
+                "source": "https://github.com/symfony/event-dispatcher/tree/v4.4.16"
+=======
                 "source": "https://github.com/symfony/finder/tree/v5.3.0"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
             },
             "funding": [
                 {
@@ -7007,7 +7594,112 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
+            "time": "2020-10-24T11:50:19+00:00"
+        },
+        {
+            "name": "symfony/event-dispatcher-contracts",
+            "version": "v1.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                "reference": "84e23fdcd2517bf37aecbd16967e83f0caee25a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/84e23fdcd2517bf37aecbd16967e83f0caee25a7",
+                "reference": "84e23fdcd2517bf37aecbd16967e83f0caee25a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3"
+=======
             "time": "2021-05-26T12:52:38+00:00"
+        },
+        {
+            "name": "symfony/http-client-contracts",
+            "version": "v2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-client-contracts.git",
+                "reference": "41db680a15018f9c1d4b23516059633ce280ca33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/41db680a15018f9c1d4b23516059633ce280ca33",
+                "reference": "41db680a15018f9c1d4b23516059633ce280ca33",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
+            },
+            "suggest": {
+                "symfony/http-client-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-version": "2.3",
+                "branch-alias": {
+<<<<<<< HEAD
+                    "dev-master": "1.1-dev"
+=======
+                    "dev-main": "2.3-dev"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\HttpClient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to HTTP clients",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+<<<<<<< HEAD
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v1.1.9"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-06T13:19:58+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -7070,6 +7762,8 @@
                 "standards"
             ],
             "support": {
+=======
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
                 "source": "https://github.com/symfony/http-client-contracts/tree/v2.3.1"
             },
             "funding": [
@@ -8949,6 +9643,8 @@
                 "source": "https://github.com/TYPO3/phar-stream-wrapper/tree/v3.1.6"
             },
             "time": "2020-11-07T09:06:16+00:00"
+<<<<<<< HEAD
+=======
         },
         {
             "name": "webflo/drupal-finder",
@@ -9101,6 +9797,7 @@
                 "source": "https://github.com/webmozart/path-util/tree/2.3.0"
             },
             "time": "2015-12-17T08:42:14+00:00"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         }
     ],
     "packages-dev": [],
@@ -9109,14 +9806,21 @@
     "stability-flags": {
         "drupal/better_exposed_filters": 10,
         "drupal/business_rules": 10,
+<<<<<<< HEAD
+=======
         "drupal/shs": 15,
         "drupal/views_extras": 15,
         "drupal/webform_shs": 15,
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
         "drupal/zurb_foundation": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
+<<<<<<< HEAD
+    "plugin-api-version": "2.0.0"
+=======
     "plugin-api-version": "2.1.0"
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
 }
