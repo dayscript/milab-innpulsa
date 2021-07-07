@@ -310,8 +310,13 @@
     }
 
     .pie {
+<<<<<<< HEAD
         display: flex;
         justify-content: space-between;
+=======
+        /*display: flex;
+        justify-content: space-between;*/
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
 
         .sector {
             font-size: 0.7rem;
@@ -323,6 +328,12 @@
             line-height: 1;
             display: flex;
             align-items: center;
+<<<<<<< HEAD
+=======
+            padding-top: 0.8rem;
+            border-top: 1px solid #dddddd;
+            margin-top: 0.7rem;
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
 
             &::before {
                 content: "";
@@ -556,12 +567,26 @@
     }
     .categorias {
         color: #cf3f7e;
+<<<<<<< HEAD
         font-size: 0.9rem;
         margin-bottom: 1rem;
+=======
+        font-size: 0.8rem;
+        margin-bottom: 0.3rem;
+
+        span {
+            color: #333 !important;
+            font-weight: bold;
+        }
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     }
 
     .body {
         font-size: 0.9rem;
+<<<<<<< HEAD
+=======
+        margin-top: 1rem;
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     }
 }
 
@@ -572,12 +597,26 @@
     }
     .categorias {
         color: #cf3f7e;
+<<<<<<< HEAD
         font-size: 0.9rem;
         margin-bottom: 1rem;
+=======
+        font-size: 0.8rem;
+        margin-bottom: 0.3rem;
+
+        span {
+            color: #333 !important;
+            font-weight: bold;
+        }
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     }
 
     .body {
         font-size: 0.9rem;
+<<<<<<< HEAD
+=======
+        margin-top: 1rem;
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     }
 }
 
@@ -590,6 +629,60 @@
     }
 }
 
+<<<<<<< HEAD
+=======
+.inscripcion-solucionador {
+    background: #16144c;
+    padding: 4rem 0;
+
+    h4 {
+        color: #fff;
+        text-transform: none;
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    a {
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #cf3f7e;
+        color: #fff;
+        padding: 1rem 3rem;
+        margin: 1rem 0 0 0;
+        display: inline-block;
+    }
+}
+
+#block-formularioexpuestomarketplacepage-1 {
+    .form-checkboxes {
+        .js-form-item {
+            display: flex;
+            
+            input[type='checkbox'] {
+                margin-top: 0.3rem;
+            }
+        }
+    }
+}
+
+.marketplace-bottom {
+    padding: 2rem 14rem;
+
+    h5 {
+        font-weight: bold;
+    }
+}
+
+.ubicación {
+    .shs {
+        margin-left: 0;
+        li {
+            list-style: none;
+        }
+    }
+}
+
+
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
 /* Small only */
 @media screen and (max-width: 39.9375em) {
     header {
@@ -599,6 +692,13 @@
         }
     }
 
+<<<<<<< HEAD
+=======
+    .marketplace-bottom {
+        padding: 2rem 2rem;
+    }
+
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     #block-marketplacemenu {
         .menu {
             li {

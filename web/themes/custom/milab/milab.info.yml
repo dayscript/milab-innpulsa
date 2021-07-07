@@ -32,6 +32,10 @@ regions:
   sidebar_first: 'Left sidebar'
   sidebar_second: 'Right sidebar'
   top_footer: 'Top footer'
+<<<<<<< HEAD
+=======
+  footer_top_full: 'Footer top full'
+>>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
   footer_first: 'Footer first column'
   footer_middle: 'Footer middle column'
   footer_last: 'Footer last column'
