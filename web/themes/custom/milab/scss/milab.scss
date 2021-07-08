@@ -310,13 +310,10 @@
     }
 
     .pie {
-<<<<<<< HEAD
         display: flex;
         justify-content: space-between;
-=======
         /*display: flex;
         justify-content: space-between;*/
->>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
 
         .sector {
             font-size: 0.7rem;
@@ -328,12 +325,9 @@
             line-height: 1;
             display: flex;
             align-items: center;
-<<<<<<< HEAD
-=======
             padding-top: 0.8rem;
             border-top: 1px solid #dddddd;
             margin-top: 0.7rem;
->>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
 
             &::before {
                 content: "";
@@ -567,10 +561,8 @@
     }
     .categorias {
         color: #cf3f7e;
-<<<<<<< HEAD
         font-size: 0.9rem;
         margin-bottom: 1rem;
-=======
         font-size: 0.8rem;
         margin-bottom: 0.3rem;
 
@@ -578,15 +570,11 @@
             color: #333 !important;
             font-weight: bold;
         }
->>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     }
 
     .body {
         font-size: 0.9rem;
-<<<<<<< HEAD
-=======
         margin-top: 1rem;
->>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     }
 }
 
@@ -597,10 +585,8 @@
     }
     .categorias {
         color: #cf3f7e;
-<<<<<<< HEAD
         font-size: 0.9rem;
         margin-bottom: 1rem;
-=======
         font-size: 0.8rem;
         margin-bottom: 0.3rem;
 
@@ -608,15 +594,11 @@
             color: #333 !important;
             font-weight: bold;
         }
->>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     }
 
     .body {
         font-size: 0.9rem;
-<<<<<<< HEAD
-=======
         margin-top: 1rem;
->>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     }
 }
 
@@ -629,8 +611,6 @@
     }
 }
 
-<<<<<<< HEAD
-=======
 .inscripcion-solucionador {
     background: #16144c;
     padding: 4rem 0;
@@ -682,7 +662,6 @@
 }
 
 
->>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
 /* Small only */
 @media screen and (max-width: 39.9375em) {
     header {
@@ -692,13 +671,10 @@
         }
     }
 
-<<<<<<< HEAD
-=======
     .marketplace-bottom {
         padding: 2rem 2rem;
     }
 
->>>>>>> b51dde3ac5de03b83ae9b4698cfb3cec28c79a94
     #block-marketplacemenu {
         .menu {
             li {
